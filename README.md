@@ -51,7 +51,7 @@ Without this configuration, a `PDOException` would be thrown because an empty in
 
 ## Usage
 
-Use the `settings()` helper as a model to access to your settings data from anywhere in your app :
+Use the `settings()` helper as a model instance to access to your settings data from anywhere in your app :
 ```php
 $email = settings()->email;
 ```
