@@ -36,8 +36,8 @@ $this->app->register(Okipa\LaravelSettingsManagement\SettingsManagementServicePr
 This will publish these files to your project :
     - `app/Settings.php` : The Settings model.
     - `config/settings.php` : the settings management configuration file.
-    - `database/migration/2018_05_16_145709_create_settings_table.php` : the settings management migration.
-Customize them according to your needs.
+    - `database/migration/2018_05_16_145709_create_settings_table.php` : the settings management migration.  
+Customize them according to your needs.  
 **Note :** if you use the [Laravel Model Json Storage](https://github.com/Okipa/laravel-model-json-storage), you can delete the published `database/migration/2018_05_16_145709_create_settings_table.php` file.
 
 - Run the Laravel migration command : `php artisan migrate`
