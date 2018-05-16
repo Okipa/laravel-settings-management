@@ -1,0 +1,49 @@
+{
+    "name": "okipa/laravel-settings-management",
+    "description": "An easy way to get access to your app settings from anywhere.",
+    "keywords": [
+        "okipa",
+        "package",
+        "php",
+        "laravel",
+        "settings",
+        "management"
+    ],
+    "homepage": "https://github.com/Okipa/laravel-settings-management",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arthur LORENT",
+            "email": "arthur.lorent@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Okipa\\LaravelSettingsManagement\\": "src/"
+        },
+        "files": [
+            "src/settings.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Okipa\\LaravelSettingsManagement\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Okipa\\LaravelSettingsManagement\\SettingsManagementServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
