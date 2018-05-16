@@ -45,7 +45,7 @@ This will publish these files to your project (to customize according to your ne
    
 **Caution :**  
 Your model-settings-management migration should have each of its field set as `nullable()` or having a default value.  
-Without this configuration, a PDOException would be thrown because an empty instance of the settings model is stored in database when none does exist.
+Without this configuration, a `PDOException` would be thrown because an empty instance of the settings model is stored in database when none does exist.
 
 ------------------------------------------------------------------------------------------------------------------------
 
