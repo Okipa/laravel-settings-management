@@ -33,20 +33,18 @@ $this->app->register(Okipa\LaravelSettingsManagement\SettingsManagementServicePr
 ```
 
 - Run the following command : `php artisan vendor:publish --tag=settingsManagement`.  
-This will publish these files to your project :
+This will publish these files to your project (to customize according to your needs) :
     - `app/Settings.php` : The Settings model.
     - `config/settings.php` : the settings management configuration file.
-    - `database/migration/2018_05_16_145709_create_settings_table.php` : the settings management migration.  
-Customize them according to your needs.  
-**Note :** if you use the [Laravel Model Json Storage](https://github.com/Okipa/laravel-model-json-storage), you can delete the published `database/migration/2018_05_16_145709_create_settings_table.php` file.
+    - `database/migration/2018_05_16_145709_create_settings_table.php` : the settings management migration.
+    - **Note :** if you use the [Laravel Model Json Storage](https://github.com/Okipa/laravel-model-json-storage), you can delete the published `database/migration/2018_05_16_145709_create_settings_table.php` file.
 
 - Run the Laravel migration command : `php artisan migrate`
  
 - You may want to customize the `config/settings.php` configuration file values :
     - **model :** set the namespace of the model used for your app settings management.
    
-**Notes :** 
-- The model used for your app settings management should have all its values set as `nullable()` in its related migration. Indeed, an empty settings model instance is created when none is found in database.
+**Caution :** the model used for your app settings management should have all its values set as `nullable()` in its related migration. Indeed, an empty settings model instance is created when none is found in database.
 
 ------------------------------------------------------------------------------------------------------------------------
 
