@@ -44,8 +44,8 @@ This will publish these files to your project (to customize according to your ne
     - `model` : set the namespace of the model used for your app settings management.
    
 **Caution :**  
-The model used for your app settings management should have all its fields set as `nullable()` in its related migration.  
-An empty settings model instance is created when none is found in database : this will throw an exception if all the fields are not set to `nullable`.
+Your model-settings-management migration should have each of its field set as `nullable()` or having a default value.  
+Without this configuration, a PDOException would be thrown because an empty instance of the settings model is stored in database when none does exist.
 
 ------------------------------------------------------------------------------------------------------------------------
 
