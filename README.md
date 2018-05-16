@@ -27,7 +27,7 @@ composer require okipa/laravel-settings-management
 - Laravel 5.5+ uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
 If you don't use auto-discovery or if you use a Laravel 5.4- version, add the package service provider in the `register()` method from your `app/Providers/AppServiceProvider.php` :
 ```php
-// laravel bootstrap table list
+// laravel settings management
 // https://github.com/Okipa/laravel-settings-management
 $this->app->register(Okipa\LaravelSettingsManagement\SettingsManagementServiceProvider::class);
 ```
