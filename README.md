@@ -43,7 +43,9 @@ This will publish these files to your project (to customize according to your ne
 - You may want to customize the `config/settings.php` configuration file values :
     - `model` : set the namespace of the model used for your app settings management.
    
-**Caution :** the model used for your app settings management should have all its values set as `nullable()` in its related migration. Indeed, an empty settings model instance is created when none is found in database.
+**Caution :**  
+The model used for your app settings management should have all its fields set as `nullable()` in its related migration.  
+An empty settings model instance is created when none is found in database : this will throw an exception if all the fields are not set to `nullable`.
 
 ------------------------------------------------------------------------------------------------------------------------
 
