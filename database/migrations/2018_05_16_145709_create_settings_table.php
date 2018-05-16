@@ -19,11 +19,13 @@ class CreateSettingsTable extends Migration
             $table->string('email')->nullable();
             $table->string('phone_number')->nullable();
             $table->string('address')->nullable();
-            $table->string('address')->nullable();
             $table->string('zip_code')->nullable();
             $table->string('city')->nullable();
             $table->string('country')->nullable();
             $table->string('facebook')->nullable();
+            $table->string('twitter')->nullable();
+            $table->string('linkedin')->nullable();
+            $table->string('google_plus')->nullable();
             $table->boolean('cookies_acceptation')->nullable();
             $table->timestamps();
         });

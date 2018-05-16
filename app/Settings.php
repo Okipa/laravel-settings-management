@@ -18,7 +18,17 @@ class Settings extends Model
      * @var array
      */
     protected $fillable = [
+        'logo',
         'email',
         'phone_number',
+        'address',
+        'zip_code',
+        'city',
+        'country',
+        'facebook',
+        'twitter',
+        'linkedin',
+        'google_plus',
+        'cookies_acceptation',
     ];
 }
