@@ -32,7 +32,7 @@ If you don't use auto-discovery or if you use a Laravel 5.4- version, add the pa
 $this->app->register(Okipa\LaravelSettingsManagement\SettingsManagementServiceProvider::class);
 ```
 
-- Run the following command : `php artisan vendor:publish --tag=settingsManagement`.
+- Run the following command : `php artisan vendor:publish --tag=settingsManagement`.  
 This will publish these files to your project :
     - `app/Settings.php` : The Settings model.
     - `config/settings.php` : the settings management configuration file.
