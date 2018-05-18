@@ -29,6 +29,6 @@ class Settings extends Model
         'twitter',
         'linkedin',
         'google_plus',
-        'cookies_acceptation',
+        'google_analytics_script',
     ];
 }

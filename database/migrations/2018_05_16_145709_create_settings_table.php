@@ -26,7 +26,7 @@ class CreateSettingsTable extends Migration
             $table->string('twitter')->nullable();
             $table->string('linkedin')->nullable();
             $table->string('google_plus')->nullable();
-            $table->boolean('cookies_acceptation')->nullable();
+            $table->text('google_analytics_script')->nullable();
             $table->timestamps();
         });
     }
