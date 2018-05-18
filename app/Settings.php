@@ -1,6 +1,6 @@
 <?php
 
-namespace Okipa\LaravelSettingsManagement;
+namespace app;
 
 use Illuminate\Database\Eloquent\Model;
 
