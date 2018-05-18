@@ -29,6 +29,6 @@ class Settings extends Model
         'twitter',
         'linkedin',
         'google_plus',
-        'google_analytics_script',
+        'google_tag_manager',
     ];
 }
