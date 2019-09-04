@@ -9,7 +9,7 @@ An easy way to get access to your app settings from anywhere.
 [![Code Coverage](https://scrutinizer-ci.com/g/Okipa/laravel-settings-management/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/Okipa/laravel-settings-management/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Okipa/laravel-settings-management/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Okipa/laravel-settings-management/?branch=master)
 
-**:warning: This package has been abandonned :warning:**
+**:warning: This package has been abandonned :warning:**  
 Do not hesitate to contact me if you want to make it evolve and to maintain it.
 
 ------------------------------------------------------------------------------------------------------------------------
